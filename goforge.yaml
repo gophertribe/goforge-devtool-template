@@ -1,0 +1,19 @@
+variables:
+  project_name:
+    type: string
+    prompt: "Project name"
+    required: true
+  go_module:
+    type: string
+    prompt: "Go module"
+    required: true
+  go_min_version:
+    type: string
+    prompt: "Go minimum version"
+    required: true
+    default: "1.24"
+  go_toolchain_version:
+    type: string
+    prompt: "Go toolchain version"
+    required: true
+    default: "1.24"
